@@ -1,0 +1,3 @@
+{% for w in words %}
+    <a href="{{ url_for('word', w=w.word) }}">{{ w.word }}</p>
+{% endfor %}
